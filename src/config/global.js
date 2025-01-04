@@ -15,25 +15,26 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: '',
+        titulo: 'Políticas de inclusión en la educación',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: '',
+            titulo: 'Políticas de inclusión en la educación a nivel universal',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: '',
+            titulo:
+              'Evolución histórica de la atención educativa a la diversidad',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: '',
+            titulo: 'Políticas de inclusión en la educación en Colombia',
             hash: 't_1_3',
           },
         ],
