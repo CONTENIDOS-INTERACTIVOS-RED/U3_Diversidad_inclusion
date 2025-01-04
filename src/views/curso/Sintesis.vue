@@ -2,7 +2,7 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p(data-aos="fade-up").mb-5 Esta unidad analiza el sistema de ciencia, tecnología e innovación en Colombia, describiendo el marco institucional, la educación y formación en CTeI, así como las iniciativas de investigación y desarrollo que fomentan la innovación en sectores estratégicos. También revisa el ecosistema de emprendimiento que promueve la democratización del conocimiento, retos y oportunidades para el país.
+    p(data-aos="fade-up").mb-5 La Unidad 3: Políticas de inclusión en la educación, proporciona una visión integral de las políticas, prácticas y diseños que promueven la inclusión en los contextos educativos y laborales. A lo largo de esta unidad, se abordan normativas internacionales y nacionales que garantizan el acceso equitativo a la educación, estrategias inclusivas en el ámbito laboral, y los principios del diseño de entornos accesibles y equitativos. Este enfoque busca capacitar a los estudiantes para diseñar e implementar medidas inclusivas que respondan a las necesidades de una sociedad diversa, promoviendo la equidad y la participación plena de todas las personas.
       .row.justify-content-center
         .col-lg-12.mb-5
           figure.bg-color-sintesis.p-5.brounded

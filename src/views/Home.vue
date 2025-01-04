@@ -22,10 +22,11 @@
               .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
                 p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
                 h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-                p.descripcion.mb-4 Desde el reconocimiento de la riqueza de nuestras diferencias hasta el enfrentamiento de las barreras de discriminación y exclusión, la diversidad y la inclusión nos impulsan a construir una sociedad más equitativa. En esta unidad, exploraremos cómo la diversidad cultural y social da forma a nuestras interacciones, reflexionando sobre estrategias que promuevan la inclusión en contextos educativos y laborales. A través del análisis de casos y conceptos clave, buscaremos entender cómo las expresiones culturales, la eliminación de estereotipos y la implementación de estrategias inclusivas fortalecen la convivencia y enriquecen nuestras experiencias.
-                p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Prepárese para transformar la percepción de la diversidad en un motor de cambio positivo!
+                p.descripcion.mb-4 Desde la comprensión histórica hasta la aplicación práctica, las políticas de diversidad e inclusión, son fundamentales para construir entornos equitativos y accesibles. En esta unidad, se profundiza en la importancia de la inclusión educativa y laboral, así como en el diseño de espacios físicos y digitales que respondan a las necesidades de una población diversa.
 
-  
+                p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold  Prepárese para reflexionar y adquirir herramientas claves, que le permitirán contribuir al desarrollo de una sociedad más justa e inclusiva.
+
+               
                 .button-container.mt-auto
                   router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
                     .iniciar-btn-container.w-100.w-md-auto

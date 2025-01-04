@@ -102,14 +102,73 @@ export default {
   },
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Sánchez Fuentes, S. (2023). El diseño universal para el aprendizaje: guía práctica para el profesorado. Narcea Ediciones.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/231716?page=43',
+    },
+    {
+      referencia:
+        'Grueso Hinestroza, M. P., Antón Rubio, C. & López-Santamaría, M. (2019). Inclusión laboral de personas en proceso de reintegración en Colombia: guía de apoyo y buenas prácticas empresariales. Editorial Universidad del Rosario.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/117560?page=36',
+    },
+    {
+      referencia:
+        'Olivera, N. (2010). Inclusión social y teletrabajo ¿Sociedad de la información o sociedad de control? Derecho y Ciencias Sociales. No. 3. Editorial Red Instituto de Cultura Jurídica y Maestría en Sociología Jurídica',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/99048',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Accesibilidad',
+      significado:
+        'Capacidad de los entornos, productos y servicios para ser utilizados por todas las personas, independientemente de sus capacidades físicas, sensoriales o cognitivas.',
+    },
+    {
+      termino: 'Autonomía',
+      significado:
+        'Capacidad de una persona para realizar actividades de manera independiente, sin necesidad de asistencia constante.',
+    },
+    {
+      termino: 'Ergonomía',
+      significado:
+        'Ciencia que estudia cómo diseñar productos y entornos para que sean cómodos y eficientes para el uso humano.',
+    },
+    {
+      termino: 'Flexibilidad',
+      significado:
+        'Capacidad de cambiar o ser modificado para adaptarse a nuevas circunstancias.',
+    },
+    {
+      termino: 'Interactividad',
+      significado:
+        'Capacidad de un entorno o producto para permitir la participación activa y la comunicación bidireccional entre el usuario y el sistema.',
+    },
+    {
+      termino: 'Interdisciplinariedad',
+      significado:
+        'Integración de conocimientos y métodos de diferentes disciplinas para abordar un tema o problema.',
+    },
+    {
+      termino: 'Multisensorialidad',
+      significado:
+        'Diseño que involucra múltiples sentidos (vista, oído, tacto, olfato, gusto) para mejorar la accesibilidad y la experiencia del usuario.',
+    },
+    {
+      termino: 'Paradigma',
+      significado:
+        'Conjunto de creencias, valores y técnicas que comparten los miembros de una comunidad científica o educativa.',
+    },
+    {
+      termino: 'Usabilidad',
+      significado:
+        'Facilidad con la que las personas pueden utilizar un producto o entorno para alcanzar sus objetivos de manera efectiva y satisfactoria.',
+    },
+    {
+      termino: 'Universalidad',
+      significado:
+        'Cualidad de ser aplicable o accesible a todos sin excepción.',
     },
   ],
   complementario: [],
