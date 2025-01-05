@@ -43,28 +43,29 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: '',
+        titulo: 'Inclusión en el ámbito laboral: buenas prácticas y desafíos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: '',
+            titulo: 'Buenas prácticas en la inclusión laboral',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: '',
+            titulo: 'Desafíos en la inclusión laboral',
             hash: 't_2_2',
           },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: '',
-            hash: 't_2_3',
-          },
         ],
+      },
+      {
+        nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
+        numero: '3',
+        titulo: 'Diseño de entornos inclusivos',
+        desarrolloContenidos: true,
       },
       {
         nombreRuta: 'sintesis',

@@ -191,7 +191,12 @@ $custom-card-img-height: 322px
   &__image
     height: 224px
     object-fit: cove
-
+.py-0-cus
+  padding-top: 0 !important
+  padding-bottom: 0 !important
+  @media screen and (max-width: $bp-max-md)
+    padding-top: 2rem !important
+    padding-bottom: 2rem !important
 // Full Width Background
 .bg-full-width
   background-size: cover
@@ -200,5 +205,28 @@ $custom-card-img-height: 322px
   @media screen and (max-width: $bp-max-sm)
     padding-left: 1.5rem
     padding-right: 1.5rem
-
-
+.img-over
+  z-index: 2
+  position: relative
+.bg-full-width-2
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.7rem
+  position: relative
+  overflow: hidden
+  
+  &::before
+    content: ''
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+    height: 90%
+    background-color: #F9E6E9 // Color rosa claro similar al de la imagen
+    z-index: 1
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+    &::before
+      height: 100%
+  
