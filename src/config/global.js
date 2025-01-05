@@ -66,6 +66,28 @@ export default {
         numero: '3',
         titulo: 'Diseño de entornos inclusivos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Principios del diseño de entornos inclusivos',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo:
+              'Importancia de los entornos y tipos de entornos inclusivos',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo:
+              'Entornos educativos inclusivos: características y prácticas',
+            hash: 't_3_3',
+          },
+        ],
       },
       {
         nombreRuta: 'sintesis',
