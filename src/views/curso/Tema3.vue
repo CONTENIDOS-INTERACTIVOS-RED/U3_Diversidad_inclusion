@@ -125,7 +125,7 @@
             p.mb-0 Como lectores de pantalla, software de aprendizaje interactivo, audiolibros y pizarras digitales interactivas, para apoyar a estudiantes con discapacidad visual, auditiva o cognitiva y de esta manera buscar una evaluación inclusiva. Al diseñar métodos de evaluación, permitirá a los estudiantes demostrar sus conocimientos de diversas maneras, respetando sus capacidades y estilos de aprendizaje.
     
 
-    .bg-full-width.bg-10.mb-0(data-aos="fade-up")
+    .bg-full-width.bg-10.mb-5(data-aos="fade-up")
       .px-5.py-4
           .row.align-items-center
             .col-lg-auto.d-none.d-lg-block
@@ -134,7 +134,10 @@
               p.mb-0 El diseño de entornos inclusivos y, en particular, de entornos educativos, es fundamental para garantizar el derecho a la igualdad y la participación plena de todas las personas. Aunque se han logrado avances significativos, persisten desafíos que requieren un compromiso conjunto entre gobiernos, instituciones educativas, docentes y comunidades. La promoción de la accesibilidad, la formación docente, el uso de tecnologías inclusivas y la sensibilización cultural son pilares esenciales para construir sociedades más justas y equitativas.
 
 
-
+    .bg-full-width.border-top.actividad.ctn-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario='cuestionario'/>
 
 
 
@@ -144,6 +147,129 @@
 <script>
 export default {
   name: 'Tema3',
+  data: () => ({
+    cuestionario: {
+      tema: '--',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto:
+            'La exclusión en la educación está relacionada con la discriminación.',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! La exclusión en la educación no está relacionada con la discriminación.',
+          mensaje_incorrecto:
+            'Incorrecto. Revisa el material sobre inclusión educativa.',
+        },
+        {
+          id: 2,
+          texto:
+            'La participación es un principio inclusivo que fomenta la igualdad de oportunidades.',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! La participación es fundamental para la inclusión.',
+          mensaje_incorrecto:
+            'Incorrecto. La participación es un principio clave de la inclusión.',
+        },
+        {
+          id: 3,
+          texto:
+            'El respeto por la diversidad excluye a las minorías culturales.',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! El respeto por la diversidad incluye a todas las personas.',
+          mensaje_incorrecto:
+            'Incorrecto. El respeto por la diversidad es inclusivo por naturaleza.',
+        },
+        {
+          id: 4,
+          texto: 'La equidad garantiza la igualdad en los entornos inclusivos.',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! La equidad es fundamental para garantizar la igualdad.',
+          mensaje_incorrecto:
+            'Incorrecto. La equidad es un principio básico de los entornos inclusivos.',
+        },
+        {
+          id: 5,
+          texto:
+            'Las políticas inclusivas en Colombia no consideran la diversidad cultural.',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! Las políticas inclusivas en Colombia sí consideran la diversidad cultural.',
+          mensaje_incorrecto:
+            'Incorrecto. Colombia tiene políticas que consideran la diversidad cultural.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Felicidades! Has superado la prueba con éxito.',
+      mensaje_final_reprobado:
+        'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
