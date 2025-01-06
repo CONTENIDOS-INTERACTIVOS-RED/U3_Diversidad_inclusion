@@ -133,7 +133,34 @@
             .col-lg
               p.mb-0 El diseño de entornos inclusivos y, en particular, de entornos educativos, es fundamental para garantizar el derecho a la igualdad y la participación plena de todas las personas. Aunque se han logrado avances significativos, persisten desafíos que requieren un compromiso conjunto entre gobiernos, instituciones educativas, docentes y comunidades. La promoción de la accesibilidad, la formación docente, el uso de tecnologías inclusivas y la sensibilización cultural son pilares esenciales para construir sociedades más justas y equitativas.
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://revistas.ucm.es/index.php/ARIS/article/view/71355/4564456585532' target='_blank' rel='noopener noreferrer') Angarita-Niño, D. P., Jiménez-Sierra, D. & Monsalve-Perdomo, M. L. (2021). Análisis del espacio público desde el diseño universal; el caso Santa Marta, Colombia. Arte, individuo y sociedad, 33(4).
 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.mineducacion.gov.co/portal/micrositios-superior/Publicaciones-Educacion-Superior/357277:Lineamientos-Politica-de-Educacion-Superior-Inclusiva-e-intercultural' target='_blank' rel='noopener noreferrer') Lineamientos Política de Educación Superior Inclusiva e intercultural. (2020). Mineducacion.Gov.co.
+
+            
+            
+            
+            
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://youtu.be/v6R76bt4r6c?si=LsX7GUImm8g-2arK' target='_blank' rel='noopener noreferrer') EUROsociAL [@Eurosocial-iiEu]. (2021). Herramientas de educación inclusiva para docentes.
+ 
+            
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
     .bg-full-width.border-top.actividad.ctn-actividad
       .p-4.p-md-5
         #Actividad                

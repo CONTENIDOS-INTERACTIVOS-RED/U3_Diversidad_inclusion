@@ -144,7 +144,7 @@
           div(numero='7' titulo='Desigualdad de oportunidades')
             p.mb-0 Algunos grupos las enfrentan y les es difícil acceder a empleos formales, como mujeres, minorías étnicas o personas transgénero, debido a sesgos estructurales, incluyendo la diferencia salarial que persiste para mujeres y otros grupos marginados (Bietti, 2023).
 
-    .bg-full-width-2.mb-0(data-aos="fade-up")
+    .bg-full-width-2.mb-5(data-aos="fade-up")
       .px-5.py-0-cus
         .row.align-items-center.img-over
           .col-sm-12.col-lg-7
@@ -152,6 +152,37 @@
             p.mb-0 Como conclusión, sabemos que la inclusión en el ámbito laboral, no solo es una cuestión de justicia social, sino que también aporta beneficios significativos a las organizaciones, como mayor innovación, productividad y satisfacción laboral. A pesar de los desafíos, las buenas prácticas en inclusión laboral, pueden transformar positivamente el entorno de trabajo y contribuir al desarrollo sostenible de las empresas.
           .col-sm-12.col-lg-5.d-none.d-lg-block
             img(src='@/assets/curso/t2/16.svg')
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://www1.funcionpublica.gov.co/documents/36025892/0/2021-10-01_10_buenas_practicas_en_la_inclusion_laboral.pdf/634024b4-7954-826e-98e3-94a4e06687e7?t=1633106334218' target='_blank' rel='noopener noreferrer') Función Pública. (2021). 10 buenas prácticas en el camino de la inclusión laboral de personas con discapacidad en el sector público.
+
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.educadua.es/html/dua/pautasDUA/dua_principios.html' target='_blank' rel='noopener noreferrer') EducaDUA. (s.f.). Educadua.es.
+
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://poe.com/' target='_blank' rel='noopener noreferrer') Poe.
+            
+            
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://youtu.be/FNr9LRxLyqg?si=gwuOhMJ_m9L8oeXA' target='_blank' rel='noopener noreferrer') Ministerio de Educación Nacional [@mineducacion]. (2024). Inclusión laboral para las personas con discapacidad.
+ 
+            
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>

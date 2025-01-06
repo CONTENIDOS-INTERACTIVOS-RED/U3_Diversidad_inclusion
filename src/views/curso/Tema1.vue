@@ -359,7 +359,7 @@
                 h5.mb-2.text-center Universidad del Rosario
                 p.mb-0 Tiene un centro de inclusión y discapacidad, donde se promueve la inclusión de estudiantes con discapacidad, mediante la sensibilización de la comunidad universitaria y la eliminación de barreras arquitectónicas.
 
-    .bg-full-width.bg-15.mb-0(data-aos="fade-up")
+    .bg-full-width.bg-15.mb-5(data-aos="fade-up")
       .px-5.py-4
           .row.align-items-center
             .col-lg-auto.d-none.d-lg-block
@@ -368,7 +368,36 @@
               p.mb-0 Es importante recordar que, el campo de la educación inclusiva, sigue evolucionando, y nuevos enfoques y teorías surgen constantemente, que la implementación de la educación inclusiva varía, según el contexto cultural y social de cada país y que, a pesar de los avances, aún existen desafíos como la falta de recursos, la formación docente y las actitudes negativas hacia la diversidad.
 
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.researchgate.net/publication/338089164_Los_Paradigmas_y_modelos_sobre_la_discapacidad_evolucion_historica_e_implicaciones_educativas' target='_blank' rel='noopener noreferrer') Bonilla, J. M. (2020). Los Paradigmas y modelos sobre la discapacidad: evolución histórica e implicaciones educativas. Paradigma: Revista de Investigación Educativa 26(42), pp.75-89.
 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.unicef.org/lac/informes/legislaci%C3%B3n-y-pol%C3%ADticas-de-educaci%C3%B3n-inclusiva' target='_blank' rel='noopener noreferrer') Unicef.org. (2019). Legislación y políticas de educación inclusiva.
+
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.perplexity.ai/' target='_blank' rel='noopener noreferrer') Perplexity.
+            
+            
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.youtube.com/watch?v=nODoPC3bQtU' target='_blank' rel='noopener noreferrer') Uy, S. [@SEPIEUV]. (2021). Políticas de educación inclusiva en América Latina.
+
+            
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 
 
