@@ -68,7 +68,7 @@
               p.mb-5 Para conocer sobre esta temática, lo invitamos a escuchar el siguiente pódcast.
               TarjetaAudio.bg-white.mb-3(
                 texto="Buenas prácticas en la inclusión laboral"
-                :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+                :audio="require('../../assets/componentes/audios/buenas-practicas-inclusion-laboral.mp3')"
               )
             .col-sm-12.col-lg-6.d-none.d-lg-block
               img(src='@/assets/curso/t2/8.svg', alt='')
