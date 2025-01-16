@@ -8,7 +8,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-7
              h2.mb-4 La Magia del Parque de la Vida
-             p.mb-4 El diseño de entornos inclusivos es una herramienta clave para garantizar la igualdad de oportunidades y fomentar la participación plena de todas las personas en diversos espacios, desde los educativos hasta los recreativos. En el PDF #[strong La Magia del Parque de la Vida] se presenta un inspirador ejemplo práctico de cómo un lugar accesible puede promover la inclusión y la diversidad, ilustrando la importancia de eliminar barreras físicas y sociales. A través de esta historia, se reflexiona sobre la relevancia de diseñar espacios que valoren la diversidad, asegurando que todos puedan participar y disfrutar de manera equitativa.
+             p.mb-4 El diseño de entornos inclusivos es una herramienta clave para garantizar la igualdad de oportunidades y fomentar la participación plena de todas las personas en diversos espacios, desde los educativos hasta los recreativos. En el PDF #[strong La Magia del Parque de la Vida], se presenta un inspirador ejemplo práctico de cómo un lugar accesible puede promover la inclusión y la diversidad, ilustrando la importancia de eliminar barreras físicas y sociales. A través de esta historia, se reflexiona sobre la relevancia de diseñar espacios que valoren la diversidad, asegurando que todos puedan participar y disfrutar de manera equitativa.
              a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/magia_parque_vida.pdf")' target='_blank')
                .anexo__icono(:style='{"background-color": "#FCDFDB"}')
                   img(src='@/assets/template/icono-pdf.svg')
