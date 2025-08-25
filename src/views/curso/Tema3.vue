@@ -142,7 +142,7 @@
             //- Referencia con enlace 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
-              a(href='https://revistas.ucm.es/index.php/ARIS/article/view/71355/4564456585532' target='_blank' rel='noopener noreferrer') Angarita-Niño, D. P., Jiménez-Sierra, D. & Monsalve-Perdomo, M. L. (2021). Análisis del espacio público desde el diseño universal; el caso Santa Marta, Colombia. Arte, individuo y sociedad, 33(4).
+              a(href='https://revistas.ucm.es/index.php/ARIS/article/view/71355/4564456558532' target='_blank' rel='noopener noreferrer') Angarita-Niño, D. P., Jiménez-Sierra, D. & Monsalve-Perdomo, M. L. (2021). Análisis del espacio público desde el diseño universal; el caso Santa Marta, Colombia. Arte, individuo y sociedad, 33(4).
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
